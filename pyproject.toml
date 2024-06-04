@@ -10,7 +10,7 @@ name = "notebook-autodoc"
 
 [project]
 name = "notebook-autodoc"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Jaspers W.", email="khguanaykispe@edu.hse.ru" },
 ]
