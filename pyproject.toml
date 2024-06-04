@@ -1,0 +1,25 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "wheel >= 0.38",
+]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "notebook-autodoc"
+
+[project]
+name = "notebook-autodoc"
+version = "0.0.1"
+authors = [
+  { name="Jaspers W.", email="khguanaykispe@edu.hse.ru" },
+]
+description = "Automatic model documentation for jupyter notebooks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "scikit-learn>=0.24.0",
+    "pandas>=1.3.5",
+    "numpy>=1.19.5",
+    "scipy>=1.5.4",
+]
