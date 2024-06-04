@@ -6,3 +6,5 @@
     to changes in future releases.
 """
 from .generator import MagicTools
+from .generator import load_ipython_extension
+from .generator import auto_doc
